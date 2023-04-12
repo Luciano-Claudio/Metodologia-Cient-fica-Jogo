@@ -20,7 +20,7 @@ public class Spin : MonoBehaviour
             });
             pickerWheel.OnSpinEnd(wheelPiece =>
             {
-                Debug.Log("Spin end: Label:" + wheelPiece.Label + ", Amount:" + wheelPiece.Amount);
+                Debug.Log("Spin end: Label:" + wheelPiece.Label);
             });
             pickerWheel.Spin();
         });

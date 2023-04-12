@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: 1547a5d2ff9724248a7dbded86ff3e15
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 201
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e333f912146db43ab8545c9231cb78
+      internalID: -1094370485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 272
+        width: 201
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7630a864d9c3e04bb7e5ce75fc6039e
+      internalID: 833224607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_2
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 272
+        width: 201
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0396515826bbe042a2c9bc152f69af3
+      internalID: 59234539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_3
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 272
+        width: 201
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2025b3a85331040895b907f3ef9b4d
+      internalID: 1553929387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_4
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 272
+        width: 200
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab091ecf63316a44d894485eab81e3c3
+      internalID: -377323617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_5
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 272
+        width: 201
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607936c7fb31a9d478ca0ee375bccacc
+      internalID: -1681404251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_6
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 272
+        width: 201
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27f9a7a7f4f22848a77dcc3a6b5763d
+      internalID: 346459307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 18
+        width: 207
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ee6431bc165534bab50f32b365fda2
+      internalID: -1381279805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 18
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc06d8f3e9c8d84c9a322e8ebda5921
+      internalID: 894552552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_9
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 18
+        width: 233
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1014e1ae99a266b4bb9c9d5a5f183bad
+      internalID: 1906432966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_10
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 18
+        width: 264
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120936b2f31247941bf167c8c449191e
+      internalID: -704914605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_11
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 18
+        width: 259
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b598f729c2c7184bbf9feac162fd482
+      internalID: 515705146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_0: -1094370485
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_1: 833224607
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_10: -704914605
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_11: 515705146
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_2: 59234539
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_3: 1553929387
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_4: -377323617
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_5: -1681404251
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_6: 346459307
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_7: -1381279805
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_8: 894552552
+      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_9: 1906432966
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
