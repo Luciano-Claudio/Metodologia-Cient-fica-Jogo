@@ -219,7 +219,7 @@ RectTransform:
   m_GameObject: {fileID: 145168118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14, y: 0.14, z: 1}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 744290205}
@@ -1026,13 +1026,14 @@ GameObject:
   - component: {fileID: 771062417}
   - component: {fileID: 771062419}
   - component: {fileID: 771062418}
+  - component: {fileID: 771062420}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &771062417
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1092,6 +1093,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771062416}
   m_CullTransparentMesh: 1
+--- !u!95 &771062420
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771062416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 595c84b4e9b059a4dac068d4da364680, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &805985988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1133,28 +1155,28 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 8ab9f96308f525a49a7ac7a50256d6ed, type: 3}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[0].Icon
       value: 
-      objectReference: {fileID: 21300016, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+      objectReference: {fileID: 1906432966, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[1].Icon
       value: 
-      objectReference: {fileID: 21300018, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+      objectReference: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[2].Icon
       value: 
-      objectReference: {fileID: 21300020, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+      objectReference: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[3].Icon
       value: 
-      objectReference: {fileID: 21300022, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+      objectReference: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[4].Icon
       value: 
-      objectReference: {fileID: 21300022, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+      objectReference: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[5].Icon
       value: 
@@ -1301,7 +1323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[0].Question
-      value: 
+      value: Qual o tamanho do pau de Icaro?
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[1].Question
@@ -1316,8 +1338,12 @@ PrefabInstance:
       value: "Qual o nome da mat\xE9ria?"
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
+      propertyPath: wheelPieces.Array.data[4].Question
+      value: Qual o tamanho do pau de Filipe?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[0].Toggles.Array.size
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[1].Toggles.Array.size
@@ -1332,20 +1358,24 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
+      propertyPath: wheelPieces.Array.data[4].Toggles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[0].Toggles.Array.data[0]
-      value: Brasil
+      value: 10cm
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[0].Toggles.Array.data[1]
-      value: Portugal
+      value: 20cm
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[0].Toggles.Array.data[2]
-      value: Alemanha
+      value: 30cm
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[0].Toggles.Array.data[3]
-      value: Russia
+      value: 1km
       objectReference: {fileID: 0}
     - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: wheelPieces.Array.data[1].Toggles.Array.data[0]
@@ -1395,17 +1425,33 @@ PrefabInstance:
       propertyPath: wheelPieces.Array.data[3].Toggles.Array.data[3]
       value: Metodologia Cientifica
       objectReference: {fileID: 0}
+    - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
+      propertyPath: wheelPieces.Array.data[4].Toggles.Array.data[0]
+      value: 1cm
+      objectReference: {fileID: 0}
+    - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
+      propertyPath: wheelPieces.Array.data[4].Toggles.Array.data[1]
+      value: .5cm
+      objectReference: {fileID: 0}
+    - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
+      propertyPath: wheelPieces.Array.data[4].Toggles.Array.data[2]
+      value: .3cm
+      objectReference: {fileID: 0}
+    - target: {fileID: 114361574848870256, guid: 160be82451391f6448834ec65286e007, type: 3}
+      propertyPath: wheelPieces.Array.data[4].Toggles.Array.data[3]
+      value: 1km
+      objectReference: {fileID: 0}
     - target: {fileID: 224361065860011120, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224361065860011120, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224361065860011120, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224511889338460380, guid: 160be82451391f6448834ec65286e007, type: 3}
       propertyPath: m_Pivot.x
@@ -1986,7 +2032,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Qual o pa\xEDs que voc\xEA est\xE1??"
+  m_Text: Question
 --- !u!222 &1145449362
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2904,6 +2950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1894113577}
   - component: {fileID: 1894113578}
+  - component: {fileID: 1894113579}
   m_Layer: 0
   m_Name: Spin
   m_TagString: Untagged
@@ -2940,6 +2987,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiSpinButton: {fileID: 145168120}
   pickerWheel: {fileID: 805985990}
+  panel: {fileID: 771062416}
+--- !u!114 &1894113579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894113576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6bcbe38e9303b4b98612ed3040032a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  question: {fileID: 1145449361}
+  toggles:
+  - {fileID: 1144417680}
+  - {fileID: 983904810}
+  - {fileID: 928695816}
+  - {fileID: 1688937947}
+  spin: {fileID: 1894113578}
 --- !u!1 &2046615729
 GameObject:
   m_ObjectHideFlags: 0
