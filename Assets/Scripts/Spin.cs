@@ -14,9 +14,23 @@ public class Spin : MonoBehaviour
     public event SpinStopHandler SpinStop;
 
     public GameObject panel;
+
+
+    public Transform PickerWheelPosition;
+    public GameObject pickerWheelPrefab;
+    public GameObject pickerWheelGameObject;
+
+    public List<int> IgnoreDraw;
     // Update is called once per frame
+    private void Awake()
+    {
+        IgnoreDraw = new List<int>();
+        IgnoreDraw.Add(1);
+    }
     void Start()
     {
+        DestroyPickerWheel();
+        pickerWheelGameObject = pickerWheel.gameObject;
         uiSpinButton.onClick.AddListener(() =>
         {
             pickerWheel.OnSpinStart(() =>
@@ -30,11 +44,22 @@ public class Spin : MonoBehaviour
 
                 if (SpinStop != null)
                 {
-                    Debug.Log("Entrou");
                     SpinStop(wheelPiece);
                 }
             });
             pickerWheel.Spin();
         });
+    }
+
+    public void DestroyPickerWheel()
+    {
+        Destroy(pickerWheelGameObject);
+        pickerWheelGameObject = Instantiate(pickerWheelPrefab, PickerWheelPosition.position, Quaternion.identity, PickerWheelPosition);
+        Vector3 scale = pickerWheel.transform.localScale;
+        scale.x = 0.02f;
+        scale.y = 0.02f;
+        pickerWheelGameObject.transform.localScale = scale;
+
+        pickerWheel = pickerWheelGameObject.GetComponent<PickerWheel>();
     }
 }

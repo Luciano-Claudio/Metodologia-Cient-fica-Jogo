@@ -13,7 +13,9 @@ namespace PickerWheelUI {
         [HideInInspector] public int Index ;
         [HideInInspector] public double _weight = 0f ;
         public string Question;
-        public string[] Toggles;
+        public string[] Buttons;
+        [Range(0, 3)]
+        public int CorrectIndex;
       
 
    }

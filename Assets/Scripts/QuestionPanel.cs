@@ -8,8 +8,13 @@ namespace PickerWheelUI
     public class QuestionPanel : MonoBehaviour
     {
         [SerializeField] private Text question;
-        [SerializeField] private Text[] toggles;
-        public Spin spin;
+        [SerializeField] private Text[] buttonsText;
+        [SerializeField] private QuestionButton[] buttons;
+
+
+        [SerializeField] private Spin spin;
+
+
         // Start is called before the first frame update
         void Awake()
         {
@@ -18,12 +23,17 @@ namespace PickerWheelUI
 
         private void OnSpinStop(WheelPiece wheelPiece)
         {
-            Debug.Log("Entrou na função");
             question.text = wheelPiece.Question;
 
-            for(int i = 0; i < toggles.Length; i++)
+            for (int i = 0; i < buttonsText.Length; i++)
             {
-                toggles[i].text = wheelPiece.Toggles[i];
+                buttonsText[i].text = wheelPiece.Buttons[i];
+                if (i == wheelPiece.CorrectIndex)
+                {
+                    Debug.Log(i);
+                    buttons[i].CorrectAnswer = true;
+                    buttons[i].wheelPieceIndex = wheelPiece.Index;
+                }
             }
         }
     }
