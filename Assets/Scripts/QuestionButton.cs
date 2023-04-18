@@ -11,11 +11,8 @@ namespace PickerWheelUI
         public int wheelPieceIndex;
         public bool CorrectAnswer = false;
         public GameObject Confetti;
-        public GameObject pickerWheel;
         public GameObject Panel;
 
-        public Transform PickerWheelPosition;
-        public GameObject pickerWheelPrefab;
 
         public Spin spin;
 
@@ -25,7 +22,6 @@ namespace PickerWheelUI
             {
                 Debug.Log("Acertou");
                 Confetti.SetActive(true);
-                spin.IgnoreDraw.Add(wheelPieceIndex);
                 StartCoroutine(InCorrectAnswer());
 
             }
@@ -39,6 +35,7 @@ namespace PickerWheelUI
 
         IEnumerator InCorrectAnswer()
         {
+            spin.IgnoreDraw.Add(wheelPieceIndex);
             spin.DestroyPickerWheel();
             yield return new WaitForSeconds(3f);
             Confetti.SetActive(false);

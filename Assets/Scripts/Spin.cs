@@ -7,8 +7,8 @@ using UnityEngine.Events;
 
 public class Spin : MonoBehaviour
 {
-    [SerializeField] private Button uiSpinButton;
-    [SerializeField] private PickerWheel pickerWheel;
+    public Button uiSpinButton;
+    public PickerWheel pickerWheel;
 
     public delegate void SpinStopHandler(WheelPiece wheelPiece);
     public event SpinStopHandler SpinStop;
@@ -25,12 +25,11 @@ public class Spin : MonoBehaviour
     private void Awake()
     {
         IgnoreDraw = new List<int>();
-        IgnoreDraw.Add(1);
+        // IgnoreDraw.Add(1);
     }
-    void Start()
+    void Update()
     {
-        DestroyPickerWheel();
-        pickerWheelGameObject = pickerWheel.gameObject;
+        //DestroyPickerWheel();
         uiSpinButton.onClick.AddListener(() =>
         {
             pickerWheel.OnSpinStart(() =>
@@ -53,6 +52,7 @@ public class Spin : MonoBehaviour
 
     public void DestroyPickerWheel()
     {
+        pickerWheelGameObject = pickerWheel.gameObject;
         Destroy(pickerWheelGameObject);
         pickerWheelGameObject = Instantiate(pickerWheelPrefab, PickerWheelPosition.position, Quaternion.identity, PickerWheelPosition);
         Vector3 scale = pickerWheel.transform.localScale;

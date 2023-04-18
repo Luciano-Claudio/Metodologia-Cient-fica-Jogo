@@ -9,6 +9,10 @@ namespace PickerWheelUI
 
     public class PickerWheel : MonoBehaviour
     {
+        [Header("New :")]
+        public Button button;
+        public Spin spin;
+        public List<int> ignoreDraw;
 
         [Header("References :")]
         [SerializeField] private GameObject linePrefab;
@@ -60,17 +64,21 @@ namespace PickerWheelUI
         private System.Random rand = new System.Random();
 
         private List<int> nonZeroChancesIndices = new List<int>();
-        public Spin spin;
-        public List<int> ignoreDraw;
+        private void Awake()
+        {
+            spin = GameObject.FindAnyObjectByType<Spin>().GetComponent<Spin>();
+        }
 
         private void Start()
         {
-            spin = GameObject.FindAnyObjectByType<Spin>().GetComponent<Spin>();
+            spin.pickerWheel = this;
+            spin.uiSpinButton = button;
             ignoreDraw = spin.IgnoreDraw;
             for (int j = 0; j < ignoreDraw.Count; j++)
             {
                 wheelPieces.RemoveAt(ignoreDraw[j]);
             }
+            if (wheelPieces.Count == 0) Destroy(this);
             pieceAngle = 360 / wheelPieces.Count;
             halfPieceAngle = pieceAngle / 2f;
             halfPieceAngleWithPaddings = halfPieceAngle - (halfPieceAngle / 4f);
