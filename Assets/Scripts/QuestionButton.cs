@@ -12,23 +12,29 @@ namespace PickerWheelUI
         public bool CorrectAnswer = false;
         public GameObject Confetti;
         public GameObject Panel;
+        public GameObject ForcaPanel;
+        public GameObject WrongPanel;
 
 
         public Spin spin;
+        private Animator animPanel;
+
+        private void Start()
+        {
+            animPanel = Panel.GetComponent<Animator>();
+        }
 
         public void Click()
         {
             if (CorrectAnswer)
             {
-                Debug.Log("Acertou");
                 Confetti.SetActive(true);
                 StartCoroutine(InCorrectAnswer());
 
             }
             else
             {
-                Debug.Log("Errou");
-                Panel.SetActive(false);
+                StartCoroutine(InIncorrectAnswer());
             }
         }
 
@@ -39,7 +45,15 @@ namespace PickerWheelUI
             spin.DestroyPickerWheel();
             yield return new WaitForSeconds(3f);
             Confetti.SetActive(false);
-            Panel.SetActive(false);
+            //Panel.SetActive(false);
+            ForcaPanel.SetActive(true);
+        }
+        IEnumerator InIncorrectAnswer()
+        {
+            WrongPanel.SetActive(true);
+            yield return new WaitForSeconds(1f);
+            WrongPanel.SetActive(false);
+            animPanel.SetBool("Disable", true);
         }
     }
 }

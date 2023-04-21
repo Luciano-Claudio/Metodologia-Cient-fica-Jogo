@@ -52,8 +52,8 @@ namespace PickerWheelUI
 
         private Vector2 pieceMinSize = new Vector2(81f, 146f);
         private Vector2 pieceMaxSize = new Vector2(144f, 213f);
-        private int piecesMin = 2;
-        private int piecesMax = 12;
+        private int piecesMin = 1;
+        private int piecesMax = 15;
 
         private float pieceAngle;
         private float halfPieceAngle;
@@ -164,6 +164,7 @@ namespace PickerWheelUI
                 float leftOffset = (angle + halfPieceAngleWithPaddings) % 360;
 
                 float randomAngle = Random.Range(leftOffset, rightOffset);
+                spinDuration = Random.Range(5, spinDuration);
 
                 Vector3 targetRotation = Vector3.back * (randomAngle + 2 * 360 * spinDuration);
 
@@ -252,13 +253,5 @@ namespace PickerWheelUI
 
 
 
-        private void OnValidate()
-        {
-            /*if (PickerWheelTransform != null)
-                PickerWheelTransform.localScale = new Vector3(wheelSize, wheelSize, 1f);*/
-
-            if (wheelPieces.Count > piecesMax || wheelPieces.Count < piecesMin)
-                Debug.LogError("[ PickerWheelwheel ]  pieces length must be between " + piecesMin + " and " + piecesMax);
-        }
     }
 }

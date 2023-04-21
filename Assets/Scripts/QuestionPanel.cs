@@ -30,9 +30,12 @@ namespace PickerWheelUI
                 buttonsText[i].text = wheelPiece.Buttons[i];
                 if (i == wheelPiece.CorrectIndex)
                 {
-                    Debug.Log(i);
                     buttons[i].CorrectAnswer = true;
                     buttons[i].wheelPieceIndex = wheelPiece.Index;
+                }
+                else
+                {
+                    buttons[i].CorrectAnswer = false;
                 }
             }
         }

@@ -430,7 +430,7 @@ RectTransform:
   m_GameObject: {fileID: 1323661475590176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.02, y: 0.02, z: 1}
+  m_LocalScale: {x: 0.018, y: 0.018, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 224534383298239444}
@@ -570,54 +570,192 @@ MonoBehaviour:
   spinDuration: 10
   wheelSize: 0.2
   wheelPieces:
+  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "M\xE9dio"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Qual \xE9 o objetivo da revis\xE3o bibliogr\xE1fica em uma pesquisa
+      cient\xEDfica?"
+    Buttons:
+    - "Identificar os m\xE9todos de coleta de dados mais adequados para a pesquisa."
+    - "Identificar as principais vari\xE1veis a serem investigadas na pesquisa."
+    - "Analisar e sistematizar o conhecimento j\xE1 existente sobre o tema da pesquisa."
+    - Selecionar a amostra a ser estudada na pesquisa.
+    CorrectIndex: 2
+  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "M\xE9dio"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Qual \xE9 a principal finalidade da revis\xE3o sistem\xE1tica da literatura?"
+    Buttons:
+    - Descrever de forma detalhada os resultados da pesquisa realizada.
+    - "Identificar as principais limita\xE7\xF5es da pesquisa realizada."
+    - "Identificar e analisar de forma cr\xEDtica as evid\xEAncias dispon\xEDveis
+      sobre um determinado tema."
+    - "Estabelecer rela\xE7\xF5es causais entre as vari\xE1veis investigadas na pesquisa."
+    CorrectIndex: 2
   - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     Label: "F\xE1cil"
     Chance: 100
     Index: 0
     _weight: 0
-    Question: Qual o meu nome?
+    Question: "Qual \xE9 o principal objetivo da an\xE1lise de dados em uma pesquisa
+      cient\xEDfica?"
     Buttons:
-    - Luciano
-    - Filipe
-    - Vinicius
-    - Icaro
-    CorrectIndex: 0
-  - Icon: {fileID: 1906432966, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    - Descrever os dados coletados na pesquisa de forma clara e objetiva.
+    - "Identificar os m\xE9todos de coleta de dados mais adequados para a pesquisa."
+    - "Analisar e interpretar os dados coletados para responder \xE0s quest\xF5es
+      de pesquisa."
+    - Selecionar a amostra a ser estudada na pesquisa.
+    CorrectIndex: 2
+  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "F\xE1cil"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Quais s\xE3o os dois principais tipos de an\xE1lise de dados qualitativos?"
+    Buttons:
+    - "An\xE1lise fatorial e an\xE1lise de regress\xE3o."
+    - "An\xE1lise de conte\xFAdo e an\xE1lise de discurso."
+    - "An\xE1lise de vari\xE2ncia e an\xE1lise de correla\xE7\xE3o."
+    - "An\xE1lise explorat\xF3ria de dados e an\xE1lise confirmat\xF3ria de dados."
+    CorrectIndex: 1
+  - Icon: {fileID: -1681404251, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     Label: "Dif\xEDcil"
     Chance: 100
     Index: 0
     _weight: 0
-    Question: "Qual o nome da mat\xE9ria?"
+    Question: "Qual \xE9 a finalidade da triangula\xE7\xE3o em uma pesquisa cient\xEDfica?"
     Buttons:
-    - "Computa\xE7\xE3o"
-    - Fisica
-    - Matematica
-    - Metodologia Cientifica
+    - "Validar os resultados da pesquisa por meio da compara\xE7\xE3o entre diferentes
+      m\xE9todos de coleta de dados."
+    - "Analisar e interpretar os dados coletados para responder \xE0s quest\xF5es
+      de pesquisa."
+    - Selecionar a amostra a ser estudada na pesquisa.
+    - "Identificar os m\xE9todos de coleta de dados mais adequados para a pesquisa."
+    CorrectIndex: 0
+  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "M\xE9dio"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Quais s\xE3o as tr\xEAs formas de revis\xE3o bibliogr\xE1fica?"
+    Buttons:
+    - "Pesquisa explorat\xF3ria, pesquisa descritiva e pesquisa experimental."
+    - "Pesquisa bibliogr\xE1fica, pesquisa documental e pesquisa de campo."
+    - "Pesquisa de opini\xE3o, pesquisa hist\xF3rica e pesquisa experimental."
+    - "Pesquisa explorat\xF3ria, pesquisa documental e pesquisa hist\xF3rica."
+    CorrectIndex: 1
+  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "F\xE1cil"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "O que \xE9 uma revis\xE3o bibliogr\xE1fica?"
+    Buttons:
+    - "\xC9 uma pesquisa na biblioteca de uma universidade."
+    - "\xC9 uma pesquisa em bases de dados online."
+    - "\xC9 uma pesquisa em livrarias."
+    - "\xC9 uma pesquisa feita em sites de busca."
+    CorrectIndex: 1
+  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "F\xE1cil"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "O que \xE9 uma pesquisa documental?"
+    Buttons:
+    - "\xC9 uma pesquisa em bases de dados online."
+    - "\xC9 uma pesquisa feita em bibliotecas."
+    - "\xC9 uma pesquisa que envolve a an\xE1lise de documentos."
+    - "\xC9 uma pesquisa que envolve a realiza\xE7\xE3o de entrevistas."
+    CorrectIndex: 2
+  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "F\xE1cil"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Quais s\xE3o as fontes de dados prim\xE1rias?"
+    Buttons:
+    - Livros e artigos.
+    - "Teses e disserta\xE7\xF5es."
+    - Bases de dados e arquivos digitais.
+    - "Entrevistas e question\xE1rios."
     CorrectIndex: 3
   - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     Label: "M\xE9dio"
     Chance: 100
     Index: 0
     _weight: 0
-    Question: Qual o nome da professora?
+    Question: "O que \xE9 amostra?"
     Buttons:
-    - Paula
-    - "Ros\xE2ngela"
-    - Carla
-    - Ana
-    CorrectIndex: 1
-  - Icon: {fileID: 1906432966, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    - "\xC9 o conjunto de elementos que comp\xF5em a popula\xE7\xE3o."
+    - "\xC9 uma t\xE9cnica de coleta de dados."
+    - "\xC9 o processo de sele\xE7\xE3o de elementos da popula\xE7\xE3o."
+    - "\xC9 o conjunto de dados obtidos a partir de um experimento."
+    CorrectIndex: 2
+  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "M\xE9dio"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "O que \xE9 popula\xE7\xE3o?"
+    Buttons:
+    - "\xC9 o conjunto de elementos que comp\xF5em a amostra."
+    - "\xC9 o conjunto de dados obtidos a partir de um experimento."
+    - "\xC9 o processo de sele\xE7\xE3o de elementos da amostra."
+    - "\xC9 o conjunto de elementos que s\xE3o o foco da pesquisa."
+    CorrectIndex: 3
+  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "M\xE9dio"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "O que \xE9 um question\xE1rio?"
+    Buttons:
+    - "\xC9 um conjunto de quest\xF5es feitas por meio de entrevistas."
+    - "\xC9 um conjunto de quest\xF5es feitas por meio de e-mail."
+    - "\xC9 um conjunto de quest\xF5es feitas por meio de correspond\xEAncia."
+    - "\xC9 um conjunto de quest\xF5es feitas por meio de formul\xE1rio."
+    CorrectIndex: 3
+  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "M\xE9dio"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "O que \xE9 uma entrevista?"
+    Buttons:
+    - "\xC9 um conjunto de quest\xF5es feitas por meio de formul\xE1rio."
+    - "\xC9 um conjunto de quest\xF5es feitas por meio de e-mail."
+    - "\xC9 um conjunto de quest\xF5es feitas por meio de correspond\xEAncia."
+    - "\xC9 um conjunto de quest\xF5es feitas por meio de conversa."
+    CorrectIndex: 3
+  - Icon: {fileID: -1681404251, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
     Label: "Dif\xEDcil"
     Chance: 100
     Index: 0
     _weight: 0
-    Question: Quem foi o(a) criador(a) do COBOL?
+    Question: "Quais s\xE3o as duas formas de entrevista?"
     Buttons:
-    - Eisten
-    - Allan Turing
-    - Grace Murray Hopper
-    - Ada Lovegrace
-    CorrectIndex: 2
+    - Estruturada e semiestruturada.
+    - Fechada e aberta.
+    - Objetiva e subjetiva.
+    - "Focalizada e explorat\xF3ria."
+    CorrectIndex: 0
+  - Icon: {fileID: -1681404251, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
+    Label: "Dif\xEDcil"
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "O que \xE9 a t\xE9cnica Delphi?"
+    Buttons:
+    - "\xC9 uma t\xE9cnica de amostragem."
+    - "\xC9 uma t\xE9cnica de coleta de dados."
+    - "\xC9 uma t\xE9cnica de an\xE1lise de dados."
+    - "\xC9 uma t\xE9cnica de previs\xE3o."
+    CorrectIndex: 3
 --- !u!1 &1743374398951528
 GameObject:
   m_ObjectHideFlags: 0

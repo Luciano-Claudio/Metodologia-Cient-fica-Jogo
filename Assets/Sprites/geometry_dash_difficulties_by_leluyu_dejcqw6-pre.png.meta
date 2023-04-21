@@ -117,70 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_0
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 272
-        width: 201
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3e333f912146db43ab8545c9231cb78
-      internalID: -1094370485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_1
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 272
-        width: 201
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7630a864d9c3e04bb7e5ce75fc6039e
-      internalID: 833224607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_2
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 272
-        width: 201
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0396515826bbe042a2c9bc152f69af3
-      internalID: 59234539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_3
+      name: "F\xE1cil"
       rect:
         serializedVersion: 2
         x: 714
@@ -188,7 +125,7 @@ TextureImporter:
         width: 201
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_4
+      name: "M\xE9dio"
       rect:
         serializedVersion: 2
         x: 963
@@ -209,7 +146,7 @@ TextureImporter:
         width: 200
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,15 +159,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_5
+      name: "Dif\xEDcil"
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 272
+        x: 1189
+        y: 273
         width: 201
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,132 +175,6 @@ TextureImporter:
       bones: []
       spriteID: 607936c7fb31a9d478ca0ee375bccacc
       internalID: -1681404251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_6
-      rect:
-        serializedVersion: 2
-        x: 1420
-        y: 272
-        width: 201
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e27f9a7a7f4f22848a77dcc3a6b5763d
-      internalID: 346459307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_7
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 18
-        width: 207
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40ee6431bc165534bab50f32b365fda2
-      internalID: -1381279805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_8
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 18
-        width: 216
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbc06d8f3e9c8d84c9a322e8ebda5921
-      internalID: 894552552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_9
-      rect:
-        serializedVersion: 2
-        x: 678
-        y: 18
-        width: 233
-        height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1014e1ae99a266b4bb9c9d5a5f183bad
-      internalID: 1906432966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_10
-      rect:
-        serializedVersion: 2
-        x: 945
-        y: 18
-        width: 264
-        height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 120936b2f31247941bf167c8c449191e
-      internalID: -704914605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geometry_dash_difficulties_by_leluyu_dejcqw6-pre_11
-      rect:
-        serializedVersion: 2
-        x: 1247
-        y: 18
-        width: 259
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b598f729c2c7184bbf9feac162fd482
-      internalID: 515705146
       vertices: []
       indices: 
       edges: []
@@ -379,14 +190,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      "Dif\xEDcil": -1681404251
+      "F\xE1cil": 1553929387
+      "M\xE9dio": -377323617
       geometry_dash_difficulties_by_leluyu_dejcqw6-pre_0: -1094370485
       geometry_dash_difficulties_by_leluyu_dejcqw6-pre_1: 833224607
       geometry_dash_difficulties_by_leluyu_dejcqw6-pre_10: -704914605
       geometry_dash_difficulties_by_leluyu_dejcqw6-pre_11: 515705146
       geometry_dash_difficulties_by_leluyu_dejcqw6-pre_2: 59234539
-      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_3: 1553929387
-      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_4: -377323617
-      geometry_dash_difficulties_by_leluyu_dejcqw6-pre_5: -1681404251
       geometry_dash_difficulties_by_leluyu_dejcqw6-pre_6: 346459307
       geometry_dash_difficulties_by_leluyu_dejcqw6-pre_7: -1381279805
       geometry_dash_difficulties_by_leluyu_dejcqw6-pre_8: 894552552
