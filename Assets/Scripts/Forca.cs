@@ -41,36 +41,52 @@ public class Forca : MonoBehaviour
     {
         char[] str = input.text.ToUpper().ToCharArray();
         char[] palavra = "CLASSIFICAÇAO".ToCharArray();
-        string p1 = "CLASSIFICAÇAO";
-        string p2 = "CLASSIFICAÇÃO";
+        char[] palavraCerta = "CLASSIFICAÇÃO".ToCharArray();
         input.text = "";
         int qtd = 0;
+        bool correta = false;
 
-        for (int i = 0; i < palavra.Length; i++)
+        if (str.Length == 1)
         {
-            for (int j = 0; j < str.Length; j++)
+            for (int i = 0; i < palavra.Length; i++)
             {
-                if (str[j] == palavra[i])
+                for (int j = 0; j < str.Length; j++)
                 {
-                    qtd++;
-                    cubesMesh[i].material = material;
-                    cubesBool[i].active = true;
-                    StartCoroutine(InCorrectAnswer(i));
+                    if (str[j] == palavra[i])
+                    {
+                        qtd++;
+                        cubesMesh[i].material = material;
+                        cubesBool[i].active = true;
+                        StartCoroutine(InCorrectAnswer(i));
+                    }
                 }
             }
-        }
-        if (qtd == 0)
-        {
-            StartCoroutine(InIncorrectAnswer());
-            foreach (char ch in str)
+            if (qtd == 0)
             {
-                letters.Add(ch);
+                StartCoroutine(InIncorrectAnswer());
+                foreach (char ch in str)
+                {
+                    letters.Add(ch);
+                }
             }
+            else
+                StartCoroutine(CorrectAnswer());
+
         }
         else
-            StartCoroutine(InCorrectAnswer());
+        {
+            correta = true;
+            for (int i = 0; i < palavra.Length; i++)
+            {
+                if(palavraCerta[i] != str[i])
+                {
+                    StartCoroutine(InIncorrectAnswer());
+                    correta = false;
+                    break;
+                }
 
-
+            }
+        }
         wrongLetters.text = "";
         foreach (char ch in letters)
         {
@@ -84,9 +100,10 @@ public class Forca : MonoBehaviour
             if (c.active) qtdCubes++;
 
         }
-        Debug.Log(qtdCubes);
-        if (qtdCubes++ >= 13)
+
+        if (qtdCubes++ >= 13 || correta)
         {
+            StartCoroutine(InCorrectAnswer());
             Debug.Log("Completou");
             Completou = true;
             Confetti.SetActive(true);
@@ -103,7 +120,29 @@ public class Forca : MonoBehaviour
             anim[index].SetBool("Done", true);
         }
     }
+
     IEnumerator InCorrectAnswer()
+    {
+        input.interactable = false;
+        for (int i = 0; i < cubesMesh.Count; i++)
+        {
+            if (!anim[i].GetBool("Done"))
+            {
+                cubesMesh[i].material = material;
+                cubesBool[i].active = true;
+            }
+        }
+            yield return new WaitForSeconds(1f);
+        for(int i = 0; i < anim.Count; i++)
+        {
+            if (!anim[i].GetBool("Done"))
+            {
+                anim[i].SetBool("Done", true);
+            }
+
+        }
+    }
+    IEnumerator CorrectAnswer()
     {
         yield return new WaitForSeconds(3f);
         if(!Completou) correctButton.SetActive(true);

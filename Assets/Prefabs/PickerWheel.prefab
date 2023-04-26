@@ -570,192 +570,207 @@ MonoBehaviour:
   spinDuration: 10
   wheelSize: 0.2
   wheelPieces:
-  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "M\xE9dio"
+  - Icon: {fileID: -165339614, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
     Chance: 100
     Index: 0
     _weight: 0
-    Question: "Qual \xE9 o objetivo da revis\xE3o bibliogr\xE1fica em uma pesquisa
-      cient\xEDfica?"
+    Question: "Qual \xE9 o objetivo da pesquisa secund\xE1ria ou bibliogr\xE1fica?"
     Buttons:
-    - "Identificar os m\xE9todos de coleta de dados mais adequados para a pesquisa."
-    - "Identificar as principais vari\xE1veis a serem investigadas na pesquisa."
-    - "Analisar e sistematizar o conhecimento j\xE1 existente sobre o tema da pesquisa."
-    - Selecionar a amostra a ser estudada na pesquisa.
-    CorrectIndex: 2
-  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "M\xE9dio"
-    Chance: 100
-    Index: 0
-    _weight: 0
-    Question: "Qual \xE9 a principal finalidade da revis\xE3o sistem\xE1tica da literatura?"
-    Buttons:
-    - Descrever de forma detalhada os resultados da pesquisa realizada.
-    - "Identificar as principais limita\xE7\xF5es da pesquisa realizada."
-    - "Identificar e analisar de forma cr\xEDtica as evid\xEAncias dispon\xEDveis
-      sobre um determinado tema."
-    - "Estabelecer rela\xE7\xF5es causais entre as vari\xE1veis investigadas na pesquisa."
-    CorrectIndex: 2
-  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "F\xE1cil"
-    Chance: 100
-    Index: 0
-    _weight: 0
-    Question: "Qual \xE9 o principal objetivo da an\xE1lise de dados em uma pesquisa
-      cient\xEDfica?"
-    Buttons:
-    - Descrever os dados coletados na pesquisa de forma clara e objetiva.
-    - "Identificar os m\xE9todos de coleta de dados mais adequados para a pesquisa."
-    - "Analisar e interpretar os dados coletados para responder \xE0s quest\xF5es
-      de pesquisa."
-    - Selecionar a amostra a ser estudada na pesquisa.
-    CorrectIndex: 2
-  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "F\xE1cil"
-    Chance: 100
-    Index: 0
-    _weight: 0
-    Question: "Quais s\xE3o os dois principais tipos de an\xE1lise de dados qualitativos?"
-    Buttons:
-    - "An\xE1lise fatorial e an\xE1lise de regress\xE3o."
-    - "An\xE1lise de conte\xFAdo e an\xE1lise de discurso."
-    - "An\xE1lise de vari\xE2ncia e an\xE1lise de correla\xE7\xE3o."
-    - "An\xE1lise explorat\xF3ria de dados e an\xE1lise confirmat\xF3ria de dados."
+    - "Descobrir informa\xE7\xF5es novas a partir de observa\xE7\xF5es e teorias."
+    - "Formular boas quest\xF5es de pesquisa e verificar se as perguntas j\xE1 foram
+      respondidas na literatura"
+    - "Analisar dados observados e buscar suas causas e explica\xE7\xF5es."
+    - Determinar como as coisas poderiam ser
     CorrectIndex: 1
-  - Icon: {fileID: -1681404251, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "Dif\xEDcil"
+  - Icon: {fileID: 1923276109, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
     Chance: 100
     Index: 0
     _weight: 0
-    Question: "Qual \xE9 a finalidade da triangula\xE7\xE3o em uma pesquisa cient\xEDfica?"
+    Question: "O que \xE9 uma pesquisa explorat\xF3ria?"
     Buttons:
-    - "Validar os resultados da pesquisa por meio da compara\xE7\xE3o entre diferentes
-      m\xE9todos de coleta de dados."
-    - "Analisar e interpretar os dados coletados para responder \xE0s quest\xF5es
-      de pesquisa."
-    - Selecionar a amostra a ser estudada na pesquisa.
-    - "Identificar os m\xE9todos de coleta de dados mais adequados para a pesquisa."
+    - Um processo de pesquisa mais longo.
+    - Uma tentativa de determinar como as coisas poderiam ser.
+    - "Uma an\xE1lise de dados observados para buscar suas causas e explica\xE7\xF5es."
+    - "Uma pesquisa em que o autor n\xE3o tem necessariamente uma hip\xF3tese ou
+      objetivo definido em mente."
+    CorrectIndex: 3
+  - Icon: {fileID: 687593281, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Qual \xE9 o objetivo da pesquisa explicativa?"
+    Buttons:
+    - "Descobrir informa\xE7\xF5es novas a partir de observa\xE7\xF5es e teorias."
+    - "Formular boas quest\xF5es de pesquisa e verificar se as perguntas j\xE1 foram
+      respondidas na literatura."
+    - "Analisar dados observados e buscar suas causas e explica\xE7\xF5es."
+    - 'Determinar como as coisas poderiam ser. '
+    CorrectIndex: 2
+  - Icon: {fileID: 498338608, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "O que \xE9 uma pesquisa de design ou de projeto?"
+    Buttons:
+    - Um processo de pesquisa mais longo.
+    - Uma tentativa de determinar como as coisas poderiam ser.
+    - "Uma an\xE1lise de dados observados para buscar suas causas e explica\xE7\xF5es."
+    - Uma pesquisa em que se busca obter dados mais consistentes sobre determinada
+      realidade.
+    CorrectIndex: 1
+  - Icon: {fileID: -20601290, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "O que \xE9 recomendado fazer antes de uma pesquisa prim\xE1ria?"
+    Buttons:
+    - "Uma revis\xE3o sistem\xE1tica da literatura. "
+    - "Uma pesquisa terci\xE1ria."
+    - "Um mapeamento sistem\xE1tico da literatura."
+    - "Uma pesquisa explorat\xF3ria."
+    CorrectIndex: 2
+  - Icon: {fileID: -2027249710, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Qual \xE9 o principal objetivo do mapeamento sistem\xE1tico da literatura
+      na pesquisa secund\xE1ria?"
+    Buttons:
+    - "Descobrir novas informa\xE7\xF5es."
+    - "Obter informa\xE7\xF5es em trabalhos j\xE1 publicados."
+    - "Responder a quest\xF5es de pesquisa com dados e resultados de trabalhos publicados."
+    - "Aumentar a compreens\xE3o sobre uma \xE1rea de conhecimento."
+    CorrectIndex: 3
+  - Icon: {fileID: -1427563917, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: O que caracteriza a pesquisa descritiva?
+    Buttons:
+    - "Busca de anomalias em um conjunto de fen\xF4menos."
+    - "Busca de teorias que expliquem os fen\xF4menos observados."
+    - "Levantamento de dados e aplica\xE7\xE3o de entrevistas e question\xE1rios."
+    - "Busca de causas e explica\xE7\xF5es para os dados observados."
+    CorrectIndex: 2
+  - Icon: {fileID: 1909435442, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Qual \xE9 o objetivo da pesquisa de design ou de projeto?"
+    Buttons:
+    - "Entender as coisas como elas s\xE3o."
+    - "Descrever os fatos como eles s\xE3o ou categoriz\xE1-los."
+    - "Encontrar fen\xF4menos n\xE3o explicados pelas teorias vigentes."
+    - Determinar como as coisas poderiam ser.
+    CorrectIndex: 3
+  - Icon: {fileID: -1770655930, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: "Qual \xE9 a defini\xE7\xE3o de pesquisa bibliogr\xE1fica?"
+    Buttons:
+    - "\xC9 a manipula\xE7\xE3o de um aspecto da realidade pelo pesquisador."
+    - "\xC9 a an\xE1lise de documentos ou dados que ainda n\xE3o foram sistematizados
+      e publicados."
+    - "\xC9 o estudo de artigos, teses, livros e outras publica\xE7\xF5es indexadas."
+    - "\xC9 a busca de informa\xE7\xF5es e padr\xF5es em documentos de requisitos
+      elaborados por empresas de desenvolvimento de software."
+    CorrectIndex: 2
+  - Icon: {fileID: 1894378364, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
+    Chance: 100
+    Index: 0
+    _weight: 0
+    Question: O que caracteriza a pesquisa experimental?
+    Buttons:
+    - "A manipula\xE7\xE3o de um aspecto da realidade pelo pesquisador."
+    - "A busca de informa\xE7\xF5es e padr\xF5es em documentos de requisitos elaborados
+      por empresas de desenvolvimento de software."
+    - "A an\xE1lise de documentos ou dados que ainda n\xE3o foram sistematizados
+      e publicados."
+    - "O estudo de fen\xF4menos sem a interven\xE7\xE3o sistem\xE1tica do pesquisador."
     CorrectIndex: 0
-  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "M\xE9dio"
+  - Icon: {fileID: -113750119, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
     Chance: 100
     Index: 0
     _weight: 0
-    Question: "Quais s\xE3o as tr\xEAs formas de revis\xE3o bibliogr\xE1fica?"
+    Question: "O que \xE9 pesquisa n\xE3o experimental?"
     Buttons:
-    - "Pesquisa explorat\xF3ria, pesquisa descritiva e pesquisa experimental."
-    - "Pesquisa bibliogr\xE1fica, pesquisa documental e pesquisa de campo."
-    - "Pesquisa de opini\xE3o, pesquisa hist\xF3rica e pesquisa experimental."
-    - "Pesquisa explorat\xF3ria, pesquisa documental e pesquisa hist\xF3rica."
-    CorrectIndex: 1
-  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "F\xE1cil"
-    Chance: 100
-    Index: 0
-    _weight: 0
-    Question: "O que \xE9 uma revis\xE3o bibliogr\xE1fica?"
-    Buttons:
-    - "\xC9 uma pesquisa na biblioteca de uma universidade."
-    - "\xC9 uma pesquisa em bases de dados online."
-    - "\xC9 uma pesquisa em livrarias."
-    - "\xC9 uma pesquisa feita em sites de busca."
-    CorrectIndex: 1
-  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "F\xE1cil"
-    Chance: 100
-    Index: 0
-    _weight: 0
-    Question: "O que \xE9 uma pesquisa documental?"
-    Buttons:
-    - "\xC9 uma pesquisa em bases de dados online."
-    - "\xC9 uma pesquisa feita em bibliotecas."
-    - "\xC9 uma pesquisa que envolve a an\xE1lise de documentos."
-    - "\xC9 uma pesquisa que envolve a realiza\xE7\xE3o de entrevistas."
+    - "A an\xE1lise de documentos ou dados que ainda n\xE3o foram sistematizados
+      e publicados."
+    - "A busca de informa\xE7\xF5es e padr\xF5es em documentos de requisitos elaborados
+      por empresas de desenvolvimento de software. "
+    - "O estudo de fen\xF4menos sem a interven\xE7\xE3o sistem\xE1tica do pesquisador. "
+    - "A manipula\xE7\xE3o de um aspecto da realidade pelo pesquisador"
     CorrectIndex: 2
-  - Icon: {fileID: 1553929387, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "F\xE1cil"
+  - Icon: {fileID: -296167398, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
     Chance: 100
     Index: 0
     _weight: 0
-    Question: "Quais s\xE3o as fontes de dados prim\xE1rias?"
+    Question: Qual o principal desafio da pesquisa de levantamento?
     Buttons:
-    - Livros e artigos.
-    - "Teses e disserta\xE7\xF5es."
-    - Bases de dados e arquivos digitais.
-    - "Entrevistas e question\xE1rios."
+    - "Obter respostas com vi\xE9s mais negativo."
+    - Encontrar o problem owner.
+    - "Realizar a pesquisa em outras empresas sem rela\xE7\xE3o com a empresa X. "
+    - "Evitar o vi\xE9s da amostra."
     CorrectIndex: 3
-  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "M\xE9dio"
+  - Icon: {fileID: 507605140, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
     Chance: 100
     Index: 0
     _weight: 0
-    Question: "O que \xE9 amostra?"
+    Question: "Qual o objetivo da pesquisa-a\xE7\xE3o?"
     Buttons:
-    - "\xC9 o conjunto de elementos que comp\xF5em a popula\xE7\xE3o."
-    - "\xC9 uma t\xE9cnica de coleta de dados."
-    - "\xC9 o processo de sele\xE7\xE3o de elementos da popula\xE7\xE3o."
-    - "\xC9 o conjunto de dados obtidos a partir de um experimento."
+    - "Descobrir como o mundo \xE9."
+    - Encontrar o problem owner.
+    - "Resolver problemas ainda n\xE3o resolvidos."
+    - Observar comportamentos de grupos sociais.
     CorrectIndex: 2
-  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "M\xE9dio"
+  - Icon: {fileID: 164918454, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
     Chance: 100
     Index: 0
     _weight: 0
-    Question: "O que \xE9 popula\xE7\xE3o?"
+    Question: "O que \xE9 pesquisa etnogr\xE1fica?"
     Buttons:
-    - "\xC9 o conjunto de elementos que comp\xF5em a amostra."
-    - "\xC9 o conjunto de dados obtidos a partir de um experimento."
-    - "\xC9 o processo de sele\xE7\xE3o de elementos da amostra."
-    - "\xC9 o conjunto de elementos que s\xE3o o foco da pesquisa."
-    CorrectIndex: 3
-  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "M\xE9dio"
+    - "A pesquisa realizada com a aplica\xE7\xE3o de question\xE1rios a um grupo
+      de pessoas."
+    - A pesquisa em que o pesquisador interage com os pesquisados.
+    - A pesquisa em que o pesquisador efetivamente mergulha em um grupo social para
+      observar seus comportamentos.
+    - A pesquisa que foca o design.
+    CorrectIndex: 2
+  - Icon: {fileID: -577570268, guid: 3ca98ba111a89224883e574827759d03, type: 3}
+    Label: 
     Chance: 100
     Index: 0
     _weight: 0
-    Question: "O que \xE9 um question\xE1rio?"
+    Question: "Qual a diferen\xE7a entre o estudo de caso explorat\xF3rio e o estudo
+      de caso confirmat\xF3rio?"
     Buttons:
-    - "\xC9 um conjunto de quest\xF5es feitas por meio de entrevistas."
-    - "\xC9 um conjunto de quest\xF5es feitas por meio de e-mail."
-    - "\xC9 um conjunto de quest\xF5es feitas por meio de correspond\xEAncia."
-    - "\xC9 um conjunto de quest\xF5es feitas por meio de formul\xE1rio."
-    CorrectIndex: 3
-  - Icon: {fileID: -377323617, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "M\xE9dio"
-    Chance: 100
-    Index: 0
-    _weight: 0
-    Question: "O que \xE9 uma entrevista?"
-    Buttons:
-    - "\xC9 um conjunto de quest\xF5es feitas por meio de formul\xE1rio."
-    - "\xC9 um conjunto de quest\xF5es feitas por meio de e-mail."
-    - "\xC9 um conjunto de quest\xF5es feitas por meio de correspond\xEAncia."
-    - "\xC9 um conjunto de quest\xF5es feitas por meio de conversa."
-    CorrectIndex: 3
-  - Icon: {fileID: -1681404251, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "Dif\xEDcil"
-    Chance: 100
-    Index: 0
-    _weight: 0
-    Question: "Quais s\xE3o as duas formas de entrevista?"
-    Buttons:
-    - Estruturada e semiestruturada.
-    - Fechada e aberta.
-    - Objetiva e subjetiva.
-    - "Focalizada e explorat\xF3ria."
-    CorrectIndex: 0
-  - Icon: {fileID: -1681404251, guid: 1547a5d2ff9724248a7dbded86ff3e15, type: 3}
-    Label: "Dif\xEDcil"
-    Chance: 100
-    Index: 0
-    _weight: 0
-    Question: "O que \xE9 a t\xE9cnica Delphi?"
-    Buttons:
-    - "\xC9 uma t\xE9cnica de amostragem."
-    - "\xC9 uma t\xE9cnica de coleta de dados."
-    - "\xC9 uma t\xE9cnica de an\xE1lise de dados."
-    - "\xC9 uma t\xE9cnica de previs\xE3o."
-    CorrectIndex: 3
+    - "O estudo de caso explorat\xF3rio \xE9 feito para mostrar que na pr\xE1tica
+      determinada teoria efetivamente se confirma, enquanto o estudo de caso confirmat\xF3rio
+      \xE9 realizado para observar problemas e comportamentos. "
+    - "O estudo de caso explorat\xF3rio \xE9 bem mais \xFAtil para refutar do que
+      para confirmar teorias, enquanto o estudo de caso confirmat\xF3rio \xE9 feito
+      para mostrar que na pr\xE1tica determinada teoria efetivamente se confirma."
+    - "O estudo de caso explorat\xF3rio \xE9 feito para confirmar teorias, enquanto
+      o estudo de caso confirmat\xF3rio \xE9 realizado para observar problemas e
+      comportamentos."
+    - "N\xE3o h\xE1 diferen\xE7a entre o estudo de caso explorat\xF3rio e o estudo
+      de caso confirmat\xF3rio."
+    CorrectIndex: 1
 --- !u!1 &1743374398951528
 GameObject:
   m_ObjectHideFlags: 0

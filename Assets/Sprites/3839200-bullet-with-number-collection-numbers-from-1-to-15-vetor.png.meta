@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 3ca98ba111a89224883e574827759d03
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 856
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae2a1f9336111647a8e1d965426735b
+      internalID: -165339614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 856
+        width: 283
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e658c691489f8f4984ef56591f62242
+      internalID: 1923276109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_2
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 856
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279a0af7d17ad9c4cb4c6e61a23a9c02
+      internalID: 687593281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_3
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 856
+        width: 283
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dbb655bb927144a90ad00635474088
+      internalID: 498338608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_4
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 856
+        width: 283
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b686718e3a08a4e8e223049fe4993c
+      internalID: -20601290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 508
+        width: 282
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42d0bdd487cc3244a630b0d44a7d11d
+      internalID: -2027249710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 508
+        width: 283
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c90a3598ad8c3b4398c3c7611b115f9
+      internalID: -1427563917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_7
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 508
+        width: 283
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e83f9bfe1d6f3140bef968414d28264
+      internalID: 1909435442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_8
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 508
+        width: 283
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cee8cf6a6bf63b46986fee074136101
+      internalID: -1770655930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_9
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 508
+        width: 282
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c3c587732a7dc45b6016f564e350a9
+      internalID: 1894378364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 161
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7ea40a7ed38cc42a30d43bec88fc3d
+      internalID: -113750119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_11
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 161
+        width: 283
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ff6fd9b95ecf54f926dd474895921d
+      internalID: -296167398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 161
+        width: 284
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d423f1f3fe6d34c9280429e818cb4a
+      internalID: 507605140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_13
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 161
+        width: 283
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d152263ebe3a814458db08e759c7fe24
+      internalID: 164918454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_14
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 161
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a11f2582908c840bbb3d3f270a998b
+      internalID: -577570268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_0: -165339614
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_1: 1923276109
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_10: -113750119
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_11: -296167398
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_12: 507605140
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_13: 164918454
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_14: -577570268
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_2: 687593281
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_3: 498338608
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_4: -20601290
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_5: -2027249710
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_6: -1427563917
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_7: 1909435442
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_8: -1770655930
+      3839200-bullet-with-number-collection-numbers-from-1-to-15-vetor_9: 1894378364
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
